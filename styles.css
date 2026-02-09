@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+
+
+body {
+    background-color: rgb(9, 9, 14);
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+#lol {
+    transition: ease-in-out 0.3s;
+    transform: scale(1);
+    position: relative;
+    z-index: 1;
+}
+
+#lol:hover {
+    transition: ease-in-out 0.3 s;
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+
+.big {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    #x2 {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+#lol2 {
+    max-width: 30%;
+    height: auto;
+}
+
+
+}
+footer{
+    
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+
+h1{
+    scale: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+    color: #ff8eec;
+}
+a{
+    color: white;
+}

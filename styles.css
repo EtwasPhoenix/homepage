@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 nav {
-  position: sticky;
-  top: 0;
-  padding: 10px 0;
-  z-index: 1000;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    z-index: 1000;
 }
 
 
@@ -59,6 +59,7 @@ section {
     justify-content: center;
     gap: 25px;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -70,22 +71,24 @@ img {
         font-size: 1rem;
         max-width: 90%;
     }
-#lol2 {
-    max-width: 30%;
-    height: auto;
-}
+
+    #lol2 {
+        max-width: 30%;
+        height: auto;
+    }
 
 
 }
-footer{
-    
+
+footer {
+
     display: grid;
     place-items: center;
     align-content: center;
 }
 
 
-h1{
+h1 {
     scale: 2;
 }
 
@@ -110,6 +113,8 @@ nav a:focus {
     text-decoration: underline;
     color: #ff8eec;
 }
-a{
+
+a {
     color: white;
+    text-decoration: none;
 }

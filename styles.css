@@ -129,3 +129,10 @@ input{
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
     text-align: center;
 }
+button{
+    background-color: rgb(9, 9, 14);
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}

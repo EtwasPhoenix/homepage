@@ -24,15 +24,19 @@ body {
 
 
 #lol {
-    transition: ease-in-out 0.3s;
+    filter: brightness(50%);
+  filter: grayscale(0.8);
+    transition: ease-in-out 0.4s;
     transform: scale(1);
     position: relative;
     z-index: 1;
 }
 
 #lol:hover {
+    filter: brightness(100%);
+  filter: grayscale(0);
     transition: ease-in-out 0.3 s;
-    transform: scale(1.5);
+    transform: scale(1.6);
     z-index: 10;
 }
 
